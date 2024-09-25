@@ -1,0 +1,40 @@
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-me-header {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-me-content {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 800px;
+}
+
+.about-me-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.about-me-bio {
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 10px;
+  text-align: center;
+}
