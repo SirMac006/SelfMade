@@ -1,5 +1,4 @@
 import React from 'react';
-import './AboutMe.css';
 
 const AboutMe = () => {
   return (
@@ -13,7 +12,7 @@ const AboutMe = () => {
         <div className="about-me-text">
           <h1>About Me</h1>
           <p>
-            Hi, I'm Matthew Holmes, a Full Stack Web Developer based in Phoenix, AZ.
+            Hi, I'm Matthew "Mac" Holmes, a Full Stack Web Developer based in Phoenix, AZ.
             I have a passion for coding and building web applications that provide a seamless user experience.
             Currently, I am completing my full stack web development certification from Arizona State University.
           </p>

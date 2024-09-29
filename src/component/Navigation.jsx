@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Navigation = ({ currentSection, handleSectionChange }) => {
   const sections = ['About Me', 'Portfolio', 'Contact', 'Resume'];
@@ -11,6 +11,7 @@ const Navigation = ({ currentSection, handleSectionChange }) => {
             key={section}
             className={currentSection === section ? 'active' : ''}
             onClick={() => handleSectionChange(section)}
+            style={{ cursor: 'pointer' }}
           >
             {section}
           </li>
