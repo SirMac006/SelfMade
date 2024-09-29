@@ -14,5 +14,4 @@ The "MAC of All Trades" portfolio is a React-based web application designed to s
 ## Tech Stack
 
 - **Frontend**:  HTML, CSS
-- **Routing**: React Router (if applicable)
-- Backend: JavaScript, React
+- **Backend**: JavaScript, React
